@@ -2,27 +2,26 @@
 using namespace std;
 
 #define ed '\n'
-#define str string
 #define ll long long int
 
 int main()
 {
-    ios_base::sync_with_stdio(false);
-    cin.tie(NULL);
+    // ios_base::sync_with_stdio(false);
+    // cin.tie(NULL);
     
     int a;
     ll  b;
-    str s;
+    char ch;
     float f;
     double d;
 
-    cin >> a >> b >> s >> f >> d;
+    cin >> a >> b >> ch >> f >> d;
 
     cout << a << ed;
     cout << b << ed;
-    cout << s << ed;
-    cout << f << ed;
-    cout << fixed << d << ed;
+    cout << ch << ed;
+    printf("%.3f\n", f);
+    printf("%.9lf\n", d);
 
     return 0;
 }
