@@ -1,10 +1,12 @@
-#include <stdio.h>
-int main()
-{
-   int x , y,z;
+#include <bits/stdc++.h>
+using namespace std;
 
-   for (int i = 1; i < 150; i += 3) {
-    printf("%d" ,i);
-   }
-    return 0;
+#define ed '\n'
+#define ll long long int
+
+int main() {
+    ios_base::sync_with_stdio(false);
+    cin.tie(NULL);
+
+
 }
